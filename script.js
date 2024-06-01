@@ -1,23 +1,15 @@
+// myburger = document.querySelector(".burger")
+// nav_List = document.querySelector(".navList")
 
-let darkMode =  () =>{
+// myburger.addEventListener('click', ()=>{
+//    nav_List.classList.toggle('v-class')
+// })
 
+// document.addEventListener('DOMContentLoaded', () => {
+//    const myburger = document.querySelector(".burger");
+//    const nav_List = document.querySelector(".navList");
 
-     primaryColor = 'black';
-     secondaryColor = "white" 
-     if(primaryColor == 'black' && secondaryColor == 'white'){
-        document.body.style.backgroundColor = "grey";
-        document.body.style.color = "black";
-     }
-
-
-}
-navbar = document.getElementsByClassName('navbar')
-navList = document.getElementsByClassName('navList')
-
-
-
-function myburger(){
-   console.log("Working")
-   navList.classList.toggle('v-class')
-   // navbar.classList.toggle('h-class')
-}
+//    myburger.addEventListener('click', () => {
+//        nav_List.classList.toggle('v-class');
+//    });
+// });
