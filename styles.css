@@ -1,0 +1,361 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    max-width: 100%;
+
+}
+
+
+.navbar {
+    text-align: center;
+    background-color: black(174, 77, 77);
+    color: white;
+    min-height: 50%;
+    opacity: 0.8;
+    width: 100%;
+    /* display: flex; */
+}
+
+.burger {
+    cursor: pointer;
+    display: none;
+    /* display: flex; */
+    float: right;
+    margin-top: -235px;
+
+}
+
+.line {
+    width: 30px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+
+}
+
+.navList>li {
+
+    display: inline-block;
+    width: 100px;
+    padding: 15px 10px;
+}
+
+@media (max-width: 800px) {
+    .navList>li {
+
+        display: block;
+
+    }
+
+    .navbar>li {
+        text-align: center;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .intro {
+
+        max-width: 100%;
+        color: aliceblue;
+        /* display: inline; */
+        /* display: flex; */
+        font-size: small;
+        text-align: center;
+        /* margin-left: 55px; */
+
+    }
+   
+
+     .downButton{
+        width: 50px;
+        display: inline;
+        height: 20px;
+    }
+    .intro > h1 {
+        margin: auto;
+    }
+   .svg{
+    display: none;
+
+   }
+    .svg > img {
+
+        width: 50%;
+        height: 50%;
+        margin-left: 150px;
+    }
+
+    .v-class{
+        opacity: 0;
+    }
+
+    .h-class{
+        height: 200px;
+    }
+    
+}
+
+.navbar>ul>li:hover {
+    cursor: pointer;
+    color: rgb(193, 189, 189);
+}
+
+
+.intro {
+
+    max-width: 100%;
+    color: aliceblue;
+    display: inline;
+    display: flex;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.intro>span {
+    margin-top: 10%;
+    margin-left: 10px;
+}
+
+.flex {
+    display: inline-block;
+    /* width: 40%; */
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+
+
+.svg{
+    width: 50%;
+    float: inline-end;
+}
+.svg>img {
+
+    height: 500px;
+    margin-left: 150px;
+}
+
+.margin {
+    margin-top: 50px;
+}
+
+.padding {
+    padding: 12px;
+}
+
+.downButton {
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: purple;
+    color: wheat;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: 1px solid snow;
+    margin-left: 4px;
+    margin-top: 17px;
+}
+
+.downButton:hover { 
+    cursor: pointer;
+    box-shadow: 4px 4px 2px rgb(252, 108, 252);
+    background-color: rgb(178, 28, 178);
+
+}
+
+.rigthDiv {
+    float: right;
+}
+
+.rigthDiv>b1>a>img {
+    width: 20px;
+    height: 50px;
+    margin-left: 12px;
+}
+
+.rigthDiv>bl>img {
+    width: 20px;
+    height: 50px;
+    margin-left: 12px;
+}
+
+/* Skills section css */
+.images {
+    width: 20%;
+    border: 2px solid purple;
+    height: 280px;
+    float: left;
+    margin: 12px;
+    border-radius: 8px;
+    margin-left: 5%;
+}
+
+
+
+.images:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 20px rgb(252, 108, 252);
+
+
+}
+
+.images>img {
+
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 70px;
+    height: 200px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.skills {
+    margin-top: 103px;
+    margin-left: 25px;
+    height: 350px;
+
+}
+
+.left {
+
+    margin-left: 20px;
+
+}
+
+.repoButton {
+    border: 1px solid wheat;
+    width: 150px;
+    background-color: purple;
+    margin-left: 70px;
+    border-radius: 12px;
+    height: 30px;
+    margin-top: 4px;
+}
+
+.repoButton:hover {
+    cursor: pointer;
+
+    background-color: rgb(178, 28, 178);
+}
+
+img {
+    fill: aliceblue;
+}
+
+ul>img {
+    width: 20px;
+    margin-left: 12px;
+    margin-right: 2px;
+    height: 50px;
+    float: right;
+}
+
+/* about section css */
+.container {
+    width: 60%;
+    border: 2px solid purple;
+    height: 315px;
+    margin-top: 12px;
+    float: left;
+    border-radius: 12px;
+    margin-left: 12px;
+}
+
+.container:hover {
+    box-shadow: 5px 5px 20px rgb(252, 108, 252);
+
+}
+
+legend {
+    font-size: 20px;
+}
+
+.myimage {
+    /* border: 1px solid purple; */
+    height: 600px;
+    width: 35%;
+    display: flex;
+    float: right;
+    border-radius: 12spx;
+    margin-right: 20px;
+    margin-top: 24px;
+}
+
+.myimage>img {
+    width: 100%;
+    border-radius: 12px;
+    height: 600px;
+    max-width: 100%;
+}
+
+.myimage>img:hover {
+    box-shadow: 5px 5px 20px rgb(252, 108, 252);
+}
+
+.info {
+    padding: 12px;
+
+}
+
+.info>p {
+    margin-top: 12px;
+
+}
+
+/* contact section css */
+.content {
+    margin-left: 23%;
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border: 2px solid purple;
+    border-radius: 20px;
+}
+
+form>input {
+    background-color: azure;
+    width: 100%;
+    height: 20px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    color: black;
+}
+
+form>input:hover {
+    /* background-color:rgb(178, 28, 178); */
+    box-shadow: 5px 5px 20px rgb(252, 108, 252);
+    /* color: white; */
+}
+
+.heading {
+    text-align: center;
+    margin-top: 14px;
+}
+
+.tag-line {
+    text-align: center;
+    margin-top: 14px;
+}
