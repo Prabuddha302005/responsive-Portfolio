@@ -48,7 +48,7 @@ a{
 }
 .intro > span {
     margin-top: 10%;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 .flex{
     display: inline-block;
@@ -148,7 +148,7 @@ a{
         
     }
     .intro{
-       margin: auto;
+       /* margin: auto; */
     }
     .flex{
        width: 100%;

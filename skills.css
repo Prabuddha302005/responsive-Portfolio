@@ -1,0 +1,139 @@
+.images{
+    width: 20%;
+    border: 2px solid purple;
+    height: 280px;
+    float: left;
+    margin: 12px;
+    border-radius: 8px;
+    margin-left: 5%;
+}
+
+/* .middle{
+    margin-left: 150px;
+} */
+
+.images:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 20px rgb(252, 108, 252);
+
+    
+}
+.images > img {
+
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 70px;
+    height: 200px;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.skills{
+    margin-top: 103px;
+    margin-left: 25px;
+    height: 350px;
+    
+}
+.left{
+    
+    margin-left: 20px;
+    
+}
+
+.repoButton{
+    border: 1px solid wheat;
+    width: 150px;
+    background-color: purple;
+    margin-left: 70px;
+    border-radius: 12px;
+    height: 30px;
+    margin-top: 4px;
+}
+.repoButton:hover{
+    cursor: pointer;
+    
+    background-color: rgb(178, 28, 178);
+}
+img{
+    fill: aliceblue;
+}
+
+ul > img{
+    width: 20px;
+    margin-left: 12px;
+    margin-right: 2px;
+    height: 50px;
+    float: right;
+}
+
+@media (max-width: 850px) {
+    
+
+.images {
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid purple;
+    height: auto;
+    float: left;
+    margin: 12px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.images:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 20px rgb(252, 108, 252);
+}
+
+.images>img {
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.skills {
+    margin-top: 103px;
+    margin-left: 25px;
+    height: auto;
+}
+
+.left {
+    margin-left: 20px;
+}
+
+.repoButton {
+    border: 1px solid wheat;
+    width: 150px;
+    background-color: purple;
+    margin-left: 70px;
+    border-radius: 12px;
+    height: 30px;
+    margin-top: 32px;
+    margin-bottom: 18px;
+}
+
+.repoButton:hover {
+    cursor: pointer;
+    background-color: rgb(178, 28, 178);
+}
+
+img {
+    fill: aliceblue;
+}
+
+ul>img {
+    width: 20px;
+    margin-left: 12px;
+    margin-right: 2px;
+    height: 50px;
+    float: right;
+}
+}

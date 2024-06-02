@@ -1,0 +1,100 @@
+.container{
+    width: 60%;
+    border: 2px solid purple;
+    height: 315px;
+    margin-top: 12px;
+    float: left;
+    border-radius: 12px;
+    margin-left: 12px;
+}
+.container:hover{
+    box-shadow: 5px 5px 20px rgb(252, 108, 252);
+
+}
+legend{
+    font-size: 20px;
+}
+
+.myimage{
+    /* border: 1px solid purple; */
+    height: 600px;
+    width: 35%;
+    display: flex;
+    float: right;
+    border-radius: 12spx;
+    margin-right: 20px;
+    margin-top: 24px;
+}
+
+.myimage > img{
+    width: 100%;
+    border-radius: 12px;
+    height: 600px;
+    max-width: 100%;
+}
+.myimage > img:hover{
+    box-shadow: 5px 5px 20px rgb(252, 108, 252);
+}
+
+.info{
+    padding: 12px;
+    
+}
+.info > p{
+    margin-top: 12px;
+    
+}
+
+
+@media (max-width: 850px) {
+    .container {
+        width: 100%;
+        max-width: 600px;
+        border: 2px solid purple;
+        height: auto;
+        margin-top: 12px;
+        border-radius: 12px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .container:hover {
+        box-shadow: 5px 5px 20px rgb(252, 108, 252);
+    }
+    
+    legend {
+        font-size: 20px;
+    }
+    
+    .myimage {
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+        display: flex;
+        justify-content: center;
+        margin: 20px auto;
+        border-radius: 12px;
+    }
+    
+    .myimage>img {
+        width: 100%;
+        border-radius: 12px;
+        height: auto;
+        max-width: 100%;
+        margin-right: 93px;
+        margin-top: 50px;
+    }
+    }
+    
+    .myimage>img:hover {
+        box-shadow: 5px 5px 20px rgb(252, 108, 252);
+    }
+    
+    .info {
+        padding: 12px;
+    }
+    
+    .info>p {
+        margin-top: 35px;
+    }
+    
